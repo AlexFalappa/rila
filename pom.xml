@@ -16,8 +16,8 @@
         <connection>scm:git:https://github.com/AlexFalappa/rila.git</connection>
         <developerConnection>scm:git:git@github.com:AlexFalappa/rila.git</developerConnection>
         <url>https://github.com/AlexFalappa/rila</url>
-      <tag>HEAD</tag>
-  </scm>
+        <tag>HEAD</tag>
+    </scm>
 
     <build>
         <plugins>
@@ -27,6 +27,7 @@
                 <configuration>
                     <tagNameFormat>v@{project.version}</tagNameFormat>
                     <pushChanges>false</pushChanges>
+                    <localCheckout>true</localCheckout>
                 </configuration>
             </plugin>
         </plugins>
