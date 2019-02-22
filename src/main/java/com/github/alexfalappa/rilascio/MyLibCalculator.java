@@ -5,7 +5,7 @@ package com.github.alexfalappa.rilascio;
  *
  * @author Alessandro Falappa
  */
-public class MyLibCalculator implements AnotherInterface {
+public class MyLibCalculator implements Calculator {
 
     @Override
     public float aValue() {

@@ -5,7 +5,7 @@ package com.github.alexfalappa.rilascio;
  *
  * @author Alessandro Falappa
  */
-public interface AnotherInterface {
+public interface Calculator {
 
     float aValue();
 

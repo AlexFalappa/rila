@@ -10,9 +10,11 @@ package com.github.alexfalappa.rilascio;
  *
  * @author Alessandro Falappa
  */
-public interface NewInterface {
+public interface Facade {
 
     void doSomething(String thing);
+
+    void doAnotherThing(int times);
 
     String version();
 
